@@ -6,7 +6,7 @@
 
 header{
     background-color: #206b85;
-    height: 150px;
+    height: 15%;
     background-image: url(../img/pattern.png);
 }
 
@@ -18,17 +18,30 @@ header{
 }
 
 h1{
-    margin-top: 1%;
+    margin-top: 0.5%;
     margin-left: 0.5%;
     font-size: xx-large;
 }
 
-.scritturagrigia{
+section h6{
     color: #808080;
     margin-left: 0.5%;
-    font-size: smaller;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.autorepagina{
+section span{
     color: #157dd3;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerimmagini {
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+}
+
+.crediti{
+    color: #000000;
+    font-style: oblique;
 }
