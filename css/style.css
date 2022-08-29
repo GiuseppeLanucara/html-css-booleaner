@@ -41,7 +41,18 @@ section span{
     margin-top: 0.5%;
 }
 
-.crediti{
+.containerimmagini h6{
     color: #000000;
     font-style: oblique;
+}
+
+p{
+    margin-left: 0.8%;
+    margin-top: 1%;
+    width: 85%;
+}
+
+ul{
+    margin-left: 1%;
+    margin-top: 1.5%;
 }
