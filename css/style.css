@@ -3,3 +3,32 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+header{
+    background-color: #206b85;
+    height: 150px;
+    background-image: url(../img/pattern.png);
+}
+
+#logo{
+    height: 50px;
+    text-align: left;
+    margin-top: 4.5%;
+    margin-left: 0.5%;
+}
+
+h1{
+    margin-top: 1%;
+    margin-left: 0.5%;
+    font-size: xx-large;
+}
+
+.scritturagrigia{
+    color: #808080;
+    margin-left: 0.5%;
+    font-size: smaller;
+}
+
+.autorepagina{
+    color: #157dd3;
+}
