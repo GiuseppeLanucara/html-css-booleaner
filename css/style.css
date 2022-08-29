@@ -1,61 +1,109 @@
+/* Applicato a tutto */
 *{
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
 }
+/*/ Applicato a tutto */
 
+
+/* Colore di backhround dell'header e immagine con relativa altezza */
 header{
     background-color: #206b85;
     height: 15%;
     background-image: url(../img/pattern.png);
 }
+/* Colore di backhround dell'header e immagine con relativa altezza */
 
+
+/* Logo sovrapposto al background dell'header */
 #logo{
     height: 50px;
     text-align: left;
     margin-top: 4.5%;
     margin-left: 0.5%;
 }
+/*/ Logo sovrapposto al background dell'header */
 
+/* TITOLO DELLA PAGINA */
 h1{
     margin-top: 0.5%;
     margin-left: 0.5%;
     font-size: xx-large;
 }
+/* /TITOLO DELLA PAGINA */
 
+
+/* Informazioni Soggetto delle foto */
 section h6{
     color: #808080;
     margin-left: 0.5%;
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* /Informazioni Soggetto delle foto */
 
+
+/* Autore Pagina */
 section span{
     color: #157dd3;
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*/ Autore Pagina */
 
+
+/* Margini relativi al div contenente le prime due immagini */
 .containerimmagini {
     margin-left: 0.5%;
     margin-top: 0.5%;
 }
+/* /Margini relativi al div contenente le prime due immagini */
 
+
+/* Stile scritta sotto le immagini */
 .containerimmagini h6{
     color: #000000;
     font-style: oblique;
 }
+/* /Stile scritta sotto le immagini */
 
+
+/* Paragrafo della prima sezione */
 p{
     margin-left: 0.8%;
     margin-top: 1%;
     width: 85%;
 }
+/* /Paragrafo della prima sezione */
 
+
+#sottolineatura{
+    background-color: #ffff00;
+    color: #000000;
+}
+
+
+/* Lista non ordinata prima sezione */
 ul{
     margin-left: 1%;
     margin-top: 1.5%;
 }
+/* /Lista non ordinata prima sezione */
+
+/* Widht tabella seconda sezione */
+table{
+    width: 80%;
+}
+/*/ Widht tabella seconda sezione */
+
+/* Table Head */
+#sezionetabella{
+    margin-top: 1.5%;
+    margin-left: 0.9%; 
+}
+/*/ Table Head */
+
 
 #rigahead{
     background-color: #157dd3;
@@ -63,47 +111,42 @@ ul{
     color: #ffffff;
 }
 
+
 #rigabody{
     background-color: #2a97f0;
 }
+
 
 #rigabody3{
     background-color: #2a97f0;
 }
 
-#sezionetabella{
-    margin-top: 1.5%;
-    margin-left: 0.9%;
-    
-}
-
+/* Altezza riga */
 tr{
     height: 10px;
 }
+/* /Altezza riga */
 
+
+/* Stile celle delle linee */
+tr>td{
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+}
+/*/ Stile celle delle linee */
+
+
+/* Titolo footer */
 footer h5{
     color: #808080;
     margin-top: 1%;
     margin-left: 1%;
 }
+/* /Titolo footer */
 
-tr>td{
-    padding: 20px;
-    width: 600px;
-    text-align: center;
-
-}
-
-table{
-    width: 80%;
-}
-
-#sottolineatura{
-    background-color: #ffff00;
-    color: #000000;
-}
-
-#monitor{
+/* Contenitore prima immagine del footer */
+footer>div{
     width: 150px;
     height: 100px;
     background-image: url(../img/monitor.jpg);
@@ -111,12 +154,15 @@ table{
     margin-left: 1%;
     margin-top: 10px;
 }
+/* /Contenitore prima immagine del footer */
 
-#nomemonitor{
+
+div>h4{
     color: #ffffff;
     padding: 7px;
 }
 
+/* Contenitore seconda immagine footer */
 #graph{
     width: 150px;
     height: 100px;
@@ -126,6 +172,8 @@ table{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/* /Contenitore seconda immagine footer */
+
 
 #nomegraph{
     color: #ffffff;
