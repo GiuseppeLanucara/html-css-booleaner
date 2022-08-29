@@ -63,8 +63,40 @@ ul{
     color: #ffffff;
 }
 
+#rigabody{
+    background-color: #2a97f0;
+}
+
+#rigabody3{
+    background-color: #2a97f0;
+}
+
 #sezionetabella{
     margin-top: 1.5%;
     margin-left: 0.9%;
     
+}
+
+tr{
+    height: 10px;
+}
+
+footer h6{
+    color: #808080;
+}
+
+tr>td{
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+
+}
+
+table{
+    width: 80%;
+}
+
+#sottolineatura{
+    background-color: #ffff00;
+    color: #000000;
 }
