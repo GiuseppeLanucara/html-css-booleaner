@@ -81,8 +81,10 @@ tr{
     height: 10px;
 }
 
-footer h6{
+footer h5{
     color: #808080;
+    margin-top: 1%;
+    margin-left: 1%;
 }
 
 tr>td{
@@ -99,4 +101,33 @@ table{
 #sottolineatura{
     background-color: #ffff00;
     color: #000000;
+}
+
+#monitor{
+    width: 150px;
+    height: 100px;
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+
+#nomemonitor{
+    color: #ffffff;
+    padding: 7px;
+}
+
+#graph{
+    width: 150px;
+    height: 100px;
+    background-image: url(../img/graph.jpg);
+    background-size: contain;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#nomegraph{
+    color: #ffffff;
+    padding: 7px;
 }
